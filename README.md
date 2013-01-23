@@ -38,7 +38,7 @@ tiles calculate their scent based on the adjacent tiles and thereby diffuse the 
 
 Run Time
 --------
-Run time is a major concern in this competition. Each turn bots are only given at most 250ms to parse the
+Run time is a major concern in this competition. Each turn, bots are only given at most 250ms to parse the
 game state, decide a strategy and issue orders to all ants. So time is a very limited resource when ant colonies
 become large; each ant needs to receive a new order.
 
