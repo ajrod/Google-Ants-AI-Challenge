@@ -92,9 +92,9 @@ namespace Ants
         public override void DoTurn(GameState state)
         {
             state.expectedLocation.Clear();
-            //attack until our number of ants falls below 150 from 250
-            if (!attackMode && state.MyAnts.Count > 200) attackMode = true;
-            if (attackMode && state.MyAnts.Count < 150) attackMode = false;
+            //attack until our number of ants falls below 250 from 300
+            if (!attackMode && state.MyAnts.Count > 300) attackMode = true;
+            if (attackMode && state.MyAnts.Count < 250) attackMode = false;
 
             this.diffuseOne(state);
             this.diffuseTwo(state);
