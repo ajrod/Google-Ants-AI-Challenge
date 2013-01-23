@@ -1,25 +1,25 @@
 Google-Ants-AI-Challenge
 ========================
 
-The [AI Challenge](http://aichallenge.org/index.php) is all about creating artificial intelligence that controls a colony of ants which fight against 
-other colonies for domination in a competitive tournament. I participated in this tournament twice concurrently.
+The [AI Challenge](http://aichallenge.org/index.php) is all about creating artificial intelligence that controls a 
+colony of ants which fight against other colonies for domination in a competitive tournament. 
+I participated in this tournament twice concurrently Fall 2011.
 
 My bot in this repository I wrote independently, but I also spent much more time working on another bot with a team
-for a course I took at University of Toronto. That bot was written in haskell and the codebase is much larger, and less
+for a course at University of Toronto. That bot was written in haskell and the codebase is much larger, and less
 readable so I will not be putting it on github.
 
 The reason I participated in this tournament was to experiment and research different techniques in AI.
 
 Objectives
 --------
-The main objective of the game, is to conquer other ant colonies or by the end of the last turn have a higher score.
-Score can only be increased by destroying an opponents colony.
+The main [objective of the game](http://aichallenge.org/problem_description.php), is to conquer other ant colonies or 
+by the end of the last turn have a higher score. Score can only be increased by destroying an opponents colony.
 
 The game starts off with each bot having a single ant. In order to get more ants, food must be located and harvested.
 At the same time, you must defend your ant hill(s) or launch an attack yourself.
 
 A game is divided up into X turns where each bot will get 250ms to issue orders to their ant colony per turn.
-
 
 
 Strategy
@@ -63,3 +63,5 @@ game. You will need to make sure that Python27 is installed and your path variab
 Now in the repository I have attached a folder called tools.zip. Extract this folder and run the bat file run_cmd.bat 
 this should begin simulating a game using my bot and several others. The game is simulated in the console, and only
 afterwards is it displayed and rendered in a more meaningful way; so be patient.
+
+Additional information ca be found at http://aichallenge.org/using_the_tools.php.
