@@ -54,7 +54,7 @@ namespace Ants
         /// <summary>
         /// The diffusion weight for an unexplored tile on diffusion layer 2.
         /// </summary>
-        public const double UNSEEN_SCORE_D2 = 20000;
+        public const double UNSEEN_SCORE_D2 = 200000;
         /// <summary>
         /// The diffusion weight for enemy hills on diffusion layer 1.
         /// </summary>
@@ -62,7 +62,7 @@ namespace Ants
         /// <summary>
         /// The diffusion weight for enemy hills on diffusion layer 2.
         /// </summary>
-        public const double ENEMYHILL_SCORE_D2 = 100000;
+        public const double ENEMYHILL_SCORE_D2 = 1000000;
         /// <summary>
         /// The diffusion weight for my hills on both diffusion layer.
         /// </summary>
@@ -74,7 +74,7 @@ namespace Ants
         /// <summary>
         /// The diffusion weight for enemy ants on diffusion layer 2.
         /// </summary>
-        public const double ENEMY_ANT_SCORE_D2 = 10000;
+        public const double ENEMY_ANT_SCORE_D2 = 100000;
         /// <summary>
         /// The diffusion weight for unknown tiles for both diffusion layers.
         /// </summary>
@@ -82,7 +82,7 @@ namespace Ants
         //controls the rate of diffusion for diffusion layer 1
         public const double D1_COEFFICIENT = 0.25;
         //controls the rate of diffusion for diffusion layer 2
-        public const double D2_COEFFICIENT = 0.25;
+        public const double D2_COEFFICIENT = 0.50;
         /// <summary>
         /// True iff the ant colony is in attack mode. Attack mode makes the ants more aggressive and will prefer to kill enemy ants over harvesting food.
         /// </summary>
@@ -92,9 +92,9 @@ namespace Ants
         public override void DoTurn(GameState state)
         {
             state.expectedLocation.Clear();
-            //attack until our number of ants falls below 100 from 150
-            if (!attackMode && state.MyAnts.Count > 150) attackMode = true;
-            if (attackMode && state.MyAnts.Count < 100) attackMode = false;
+            //attack until our number of ants falls below 150 from 250
+            if (!attackMode && state.MyAnts.Count > 200) attackMode = true;
+            if (attackMode && state.MyAnts.Count < 150) attackMode = false;
 
             this.diffuseOne(state);
             this.diffuseTwo(state);
