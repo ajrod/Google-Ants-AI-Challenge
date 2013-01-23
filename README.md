@@ -64,4 +64,4 @@ Now in the repository I have attached a folder called tools.zip. Extract this fo
 this should begin simulating a game using my bot and several others. The game is simulated in the console, and only
 afterwards is it displayed and rendered in a more meaningful way; so be patient.
 
-Additional information ca be found at http://aichallenge.org/using_the_tools.php.
+Additional information can be found at http://aichallenge.org/using_the_tools.php.
