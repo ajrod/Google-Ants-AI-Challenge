@@ -38,7 +38,7 @@ tiles calculate their scent based on the adjacent tiles and thereby diffuse the 
 
 Run Time
 --------
-Run time: Run time is a major concern in this competition. Each turn bots are only given at most 250ms to parse the
+Run time is a major concern in this competition. Each turn bots are only given at most 250ms to parse the
 game state, decide a strategy and issue orders to all ants. So time is a very limited resource when ant colonies
 become large; each ant needs to receive a new order.
 
@@ -54,3 +54,7 @@ is that it can be very expensive. Consider the worst case for BFS and A* for iss
 since the maximum search space is W*H in size the worse these algorithms can do for a single order is O(W*H). 
 Using this same strategy for every ant in the colony we get O(W*H*A). As we can see on an average size map, 
 this approach won't scale well with large ant colonies and some ants won't receive orders.
+
+How to run your own simulation
+----------------
+
