@@ -1,7 +1,7 @@
 Google-Ants-AI-Challenge
 ========================
 
-The AI Challenge is all about creating artificial intelligence that controls a colony of ants which fight against 
+The [AI Challenge](http://aichallenge.org/index.php) is all about creating artificial intelligence that controls a colony of ants which fight against 
 other colonies for domination in a competitive tournament. I participated in this tournament twice concurrently.
 
 My bot in this repository I wrote independently, but I also spent much more time working on another bot with a team
