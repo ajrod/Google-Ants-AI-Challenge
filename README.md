@@ -55,6 +55,11 @@ since the maximum search space is W*H in size the worse these algorithms can do 
 Using this same strategy for every ant in the colony we get O(W*H*A). As we can see on an average size map, 
 this approach won't scale well with large ant colonies and some ants won't receive orders.
 
-How to run your own simulation
+How to run your own simulation on Windows
 ----------------
+Since the competition is over if you want to run my bot or your own bot you will need to simulate your own
+game. You will need to make sure that Python27 is installed and your path variable is set up.
 
+Now in the repository I have attached a folder called tools.zip. Extract this folder and run the bat file run_cmd.bat 
+this should begin simulating a game using my bot and several others. The game is simulated in the console, and only
+afterwards is it displayed and rendered in a more meaningful way; so be patient.
