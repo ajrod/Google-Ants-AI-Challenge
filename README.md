@@ -37,7 +37,18 @@ assigned to it based on the type of tile. These diffusion scores work as a sort 
 follow the strongest scent towards objectives. Tiles that are considered good (such as food) emit a large scent 
 where tiles that are considered bad or dangerous, have a negative effect on the surrounding scent. 
 Tiles that are just plain intermediate tiles between more interesting tiles calculate their scent based on the 
-adjacent tiles and thereby diffuse the scent across the map.
+adjacent tiles and thereby diffuse the scent across the map. 
+
+Using this diffusion map to form a strategy is as easy as figuring out the values you want to assign to different
+tiles based on priority. For example if I have two different objectives that I want my ant
+to pursue, lets say harvest food and kill enemy hills then I would assign positive numbers to each of these tiles.
+If I wanted the ant to prefer one objective to another then I would assign a larger number to that objective. 
+
+I am not going to go over the exact values I assigned to each tile as they are pretty 
+arbitrary and was chosen with trial and error. My tiles that diffused a positive scent were, food, unseen, enemy 
+ant hill, and friendly ant hill (only when in danger). Tiles that had a negative effect or prevented scent from 
+diffusing through it were water, enemy ants, friendly ants and friendly ant hill (when not in danger).
+
 
 Run Time
 --------
