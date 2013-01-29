@@ -23,3 +23,5 @@ C:\Users\Arod-Desktop\Dropbox\Google-Ants-AI-Challenge\antsCsharp\obj\x86\Debug\
 C:\Users\Arod-Desktop\Dropbox\Google-Ants-AI-Challenge\antsCsharp\bin\Debug\MyBot.exe
 C:\Users\Arod-Desktop\Dropbox\Google-Ants-AI-Challenge\antsCsharp\bin\Debug\MyBot.pdb
 C:\Users\Arod-Desktop\Dropbox\Google-Ants-AI-Challenge\antsCsharp\obj\x86\Debug\antsCsharp.csprojResolveAssemblyReference.cache
+C:\Users\Arod-Desktop\Dropbox\Projects\github\Google-Ants-AI-Challenge\antsCsharp\obj\x86\Debug\MyBot.exe
+C:\Users\Arod-Desktop\Dropbox\Projects\github\Google-Ants-AI-Challenge\antsCsharp\obj\x86\Debug\MyBot.pdb
